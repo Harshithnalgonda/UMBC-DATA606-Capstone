@@ -91,8 +91,6 @@ Dipti Joshi et. al [2023] [1] did a comparative study of MFCC and Mel Spectrogra
 
 Using Librosa, audio file is featurized into array. This array represents the amplitude of the audio signal at a specific point in time. The essentially represents the digital representation of the audio waveform in the raw format.
 
-![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/4a20207a-cc29-4ed4-8ff5-4d40d01cf484)
-
 ![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/66ddedfd-24b7-4d6d-94d8-55c72c68859c)
 
 ![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/0169c891-75b4-44c2-8547-dee734199ccb)
