@@ -124,5 +124,3 @@ These are further processed to compute the mel-scaled spectrogram of the input a
 
 
 
-
-
