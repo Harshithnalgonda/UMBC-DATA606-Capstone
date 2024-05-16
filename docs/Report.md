@@ -1,4 +1,4 @@
-![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/14192ce0-eea8-4454-abad-a58042b97031)# Spoken Word Recognition System
+# Spoken Word Recognition System
 
 **Prepared for:** UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang  
 
