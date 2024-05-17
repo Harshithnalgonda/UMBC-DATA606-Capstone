@@ -19,10 +19,8 @@ Though this study is performed with limited set of spoken words, it can have var
 - Spoken word recognition can be used in automated customer service systems, such as interactive voice response (IVR) systems, virtual agents, and chatbots, to handle customer inquiries, provide information, and route calls to the appropriate departments. Speech recognition enhances the efficiency and scalability of customer support operations.
   
 ### What are your research questions?
-- What are the various featurization techniques for audio files?
 - Which featurization technique is highly effective in predicting the word?
-- How does deep learning improves the accuracy of the spoken word recognition?
-- How do different architectures of deep learning models (For example, Convolution Neural Networks and Recurrent Neural Networks) compare in terms of accuracy?
+- How deep learning (LSTMs) can be utilized for effective prediction of the word?
 
 ## Data
 - **Dataset -** The data is in the form of audio clips (.WAV format). It has 65000 long utterances of 30 short words, by thousands of different people. The audio clips were originally collected by Google. There are 20 core command words which were recorded with most speakers saying each of them five times. The core words are: yes, no, up, down, left, right, on, off, stop, go, zero, one, two, three, four, five, six, seven, eight, nine. There are 10 auxiliary words which most speakers said only once: bed, bird, cat, dog, happy, house, marvin, sheila, tree, wow.
