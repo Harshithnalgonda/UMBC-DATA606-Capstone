@@ -7,6 +7,9 @@
 **Github:** https://github.com/Harshithnalgonda
 
 **LinkedIn:** https://www.linkedin.com/in/nalgonda-harshith-8bb198218/ 
+
+**PPT:** 
+
 ## Background
 
 ### What is the project about? ### 
@@ -157,6 +160,10 @@ Using the trained model, let us make some predictions on the sample test data.
 The web application has been created using Streamlit and deployed using NGROK.
 
 ![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/47ff63c2-9556-4c4d-b235-52393304d7ac)
+
+It can be accessed using this link.
+
+*https://speech-recognition-system.streamlit.app/*
 
 ## Future Work
 
