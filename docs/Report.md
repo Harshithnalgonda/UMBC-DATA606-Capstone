@@ -159,7 +159,7 @@ Using the trained model, let us make some predictions on the sample test data.
 
 The web application has been created using Streamlit and deployed using NGROK.
 
-![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/47ff63c2-9556-4c4d-b235-52393304d7ac)
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/186687df-50c6-473b-a962-b6daf12217ac)
 
 It can be accessed using this link.
 
