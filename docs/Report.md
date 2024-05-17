@@ -105,6 +105,76 @@ These are further processed to compute the mel-scaled spectrogram of the input a
 
 ## Modelling
 
+I have created a model with 4 LSTM layers, 4 Dense layers and a final classification Deense layer. Also, Global Average Pooling layer has been added after LSTM layers to reduce the dimensionality and a Batch Normalization layer after Dense layers for stabilizingt and accelerating the training process.
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/a433a381-6627-49f5-bd18-e68f4bfe629c)
+
+Here, Adam Optimizer has been used with initial learning rate of 0.0001. 
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/fb332d10-eb00-47a9-b80e-cbd5ae17c202)
+
+It can be observed from the model summary that there are 762,655 (2.91 MB size) trainable parameters in the model.
+
+The following callbacks have been used for the training.
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/9a511460-2829-4ba8-9542-9793a78c7c19)
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/83462294-d474-4d91-a855-0dfc285df0f8)
+
+Model has been trained with a batch size of 16 for 100 epochs.
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/651ab746-64bd-4abe-8901-f311b9c8742f)
+
+The solution got converged at 40th epoch. At convergence, the train and test accuracies are found to be 0.9371 and 0.8734 respectively.
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/af3e225b-a681-4897-be59-5d10acc7638e)
+
+## Results
+
+The confusion matrices for train and test data are obtained as below.
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/910abfde-cf92-4b90-afc2-f6d99373093a)
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/bd16881e-7116-4f6f-afcf-bcc4f9a8107e)
+
+Using the trained model, let us make some predictions on the sample test data.
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/bab7d95b-6ebd-4459-8afc-40aa6a7eef8f)
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/725bad69-fa8b-47eb-872a-f50b3631d955)
+
+## Conclusion 
+
+- **High Accuracy -** The model demonstrates strong performance, with accuracies above 85% on both training and test sets. This indicates that the model has learned to 
+  recognize speech patterns effectively and generalizes well to unseen data.
+- **Reliability -**  With an accuracy of nearly 90% on the test set, the model can reliably transcribe speech into text in real-world scenarios. This reliability is crucial 
+  for applications such as voice-activated assistants, transcription services, or automated customer service systems.
+- **Potential for Deployment -** The high accuracy suggests that the model is mature and ready for deployment in commercial settings. It could be integrated into products 
+  or services that require speech recognition capabilities, offering value to customers through improved user experience or increased efficiency.
+
+## Deployment
+
+The web application has been created using Streamlit and deployed using NGROK.
+
+![image](https://github.com/Harshithnalgonda/UMBC-DATA606-Capstone/assets/125507937/47ff63c2-9556-4c4d-b235-52393304d7ac)
+
+## Future Work
+
+- **Data Augmentation -** Augment the dataset with variations in speech characteristics, such as different accents, speaking rates, and background noise conditions. This 
+  helps in improving the robustness and generalization capabilities of the speech recognition system, making it more effective in diverse real-world environments.
+- **Language Modeling -** Integrate language modeling techniques to enhance context awareness and improve the recognition of spoken sentences. This involves training models 
+  to understand the probability of word sequences occurring together in natural language, which can help in predicting the most likely sentence given the audio input.
+
+## References
+
+1. *Joshi, D., Pareek, J., & Ambatkar, P. (2023). Comparative study of Mfcc and Mel spectrogram for raga classification using CNN. Indian J Sci Technol, 16(11), 816-822.*
+   Link - [Link to PDF](https://sciresol.s3.us-east-2.amazonaws.com/IJST/Articles/2023/Issue-11/IJST-2022-1809.pdf)
+2. 
+
+
+
+
+
 
 
 
