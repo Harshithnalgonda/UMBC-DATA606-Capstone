@@ -169,8 +169,10 @@ The web application has been created using Streamlit and deployed using NGROK.
 
 1. *Joshi, D., Pareek, J., & Ambatkar, P. (2023). Comparative study of Mfcc and Mel spectrogram for raga classification using CNN. Indian J Sci Technol, 16(11), 816-822.*
    Link - [Link to PDF](https://sciresol.s3.us-east-2.amazonaws.com/IJST/Articles/2023/Issue-11/IJST-2022-1809.pdf)
-2. 
-
+2. *Boulal, H., Hamidi, M., Abarkan, M., & Barkani, J. (2024). Amazigh CNN speech recognition system based on Mel spectrogram feature extraction method. International Journal of Speech Technology, 1-10.*
+   Link - [Link to PDF](https://link.springer.com/article/10.1007/s10772-024-10100-0)
+3. *Bankar, A., Gandhi, A., & Baviskar, D. Image and Signal Processing of Mel-Spectrograms in Isolated Speech Recognition. International Journal of Computer Applications, 183, 11-17.*
+   Link - [Link to PDF](https://www.ijcaonline.org/archives/volume183/number25/bankar-2021-ijca-921625.pdf)
 
 
 
