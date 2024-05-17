@@ -9,10 +9,10 @@ from keras.models import load_model
 import pickle
 import numpy as np
 
-with open('labels.pkl', 'rb') as f:
+with open('app/labels.pkl', 'rb') as f:
         labels = pickle.load(f)
 
-best_model = load_model('custom_model.h5')
+best_model = load_model('app/custom_model.h5')
 
 def recognize_speech(x):
     samples, _ = librosa.load(x, sr=22050)
